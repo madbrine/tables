@@ -1,0 +1,42 @@
+.container {
+    background-color: rgb(185, 185, 185);
+}
+div {
+    margin: 0
+}
+.cell-style {
+    padding: 10px;
+    border: solid 1px black;
+}
+.cell-key-style {
+    padding: 10px;
+    border: solid 1px black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 40px;
+}
+.line-style {
+    display: flex;
+    margin: 0;
+}
+.line-key-style {
+    display: flex;
+    margin: 0;
+}
+.setting-container {
+    display: flex;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+}
+.input-range {
+    width: 35px;
+    height: 15px;
+    margin: 5px;
+}
+.string-filter-container {
+    margin-left: 180px;
+}
