@@ -71,7 +71,7 @@ const JSON_3 = 'http://jsonplaceholder.typicode.com/posts'
 //получение с API
 const getTable = () => {
     console.log('work')
-    fetch(JSON_3)
+    fetch(JSON_2)
         .then((response) => response.json())
         .then((data) => buildArray(data));
 }
